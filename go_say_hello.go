@@ -1,9 +1,9 @@
 package go_say_hello
 
-func SayHello() string {
-	return "Hello Audyari"
+func SayHello(name string) string {
+	return "Hello " + name
 }
 
-func SayGoodbye() string {
-	return "Goodbye Audyari"
+func SayGoodbye(name string) string {
+	return "Goodbye " + name
 }
